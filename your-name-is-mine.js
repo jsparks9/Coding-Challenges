@@ -36,7 +36,7 @@ const checkMatch = (a, b) => {
 }
 
 for (let arr of arrIn) {
-    console.log(checkMatch(arr[0], arr[1]));
+    console.log((checkMatch(arr[0], arr[1]))?'YES':'NO');
 }
 // for (let arr of arrIn) {
 //     console.log(checkMatch(arr[0], arr[1]) +' '+arr[0]+' '+arr[1]);
